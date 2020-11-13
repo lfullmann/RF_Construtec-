@@ -581,10 +581,10 @@ a:focus, a:hover {
   background-attachment: fixed;
 }
 
-.hero-area {
+/* .hero-area {
+  height: 100vh;
   background-image: url("../images/slider/hero-area.jpg");
   background-size: cover;
-  height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -595,7 +595,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
+} */
 
 .hero-area:before {
   content: '';
