@@ -9,26 +9,29 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 html {
   background-color: #272727;
-  color: #ffa200;
+  color: #FFCC00;
 }
 
 body {
-  background-color: #272727;
-  font-family: "Anaheim", sans-serif;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
-  color: #ffa200;
+  font-family: "Poppins", sans-serif;
+  color: hsl(48, 100%, 50%);
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*=================================================================
@@ -37,12 +40,12 @@ p {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #ffba00 ;
+  background: hsl(48, 100%, 50%) ;
 }
 
 ::selection {
   color: #fff;
-  background: #ffba00;
+  background: hsl(48, 100%, 50%);
 }
 
 ol, ul {
@@ -70,7 +73,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #ffba00;
+  color: #FFCC00;
 }
 
 .kill-margin-bottom {
@@ -177,7 +180,7 @@ a:focus, a:hover {
 }
 
 .color {
-  color: #ffba00;
+  color: #FFCC00;
 }
 
 .sub-title {
@@ -251,7 +254,7 @@ a:focus, a:hover {
 }
 
 .btn-main {
-  background: #ffa200;
+  background: hsl(48, 100%, 50%);
   color: #000;
   display: inline-block;
   font-size: 14px;
@@ -343,7 +346,7 @@ a:focus, a:hover {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #ffa200;
+  background-color: #FFCC00;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -428,7 +431,7 @@ a:focus, a:hover {
 }
 
 .title h2 span {
-  color: #ffa200;
+  color: #FFCC00;
 }
 
 .title p {
@@ -546,17 +549,17 @@ a:focus, a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #ffa800;
+  color:#FFCC00;
 }
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #ffa200;
+  color: #FFCC00;
 }
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #ffa800;
+  color: #FFCC00;
 }
 
 .navbar-toggle {
@@ -859,12 +862,12 @@ a:focus, a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #ffae00;
+  border-color:#FFCC00;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #ffae00;
+  background:#FFCC00;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -1006,13 +1009,13 @@ a:focus, a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #ff9600;
+  color: #FFCC00;
   transition: .3s all;
 }
 
 .portfolio-filter button.mixitup-control-active {
-  border: 1px solid #ffa200;
-  color: #ffa200;
+  border: 1px solid #FFCC00;
+  color: #FFCC00;
 }
 
 .portfolio-items-wrapper .mix {
@@ -1075,7 +1078,7 @@ a:focus, a:hover {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #ffa800;
+  background: #FFCC00;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -1121,13 +1124,13 @@ a:focus, a:hover {
 
 .service-2 .service-item:hover i {
   background: #00000;
-  color: #ffa200;
+  color: #FFCC00;
 }
 
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #ffa200 none repeat scroll 0 0;
+  background: #FFCC00 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #0000;
@@ -1608,7 +1611,7 @@ a:focus, a:hover {
 }
 
 .social-icon ul li a {
-  background-color: #ffa200;
+  background-color:#FFCC00;
   border: 1px solid transparent;
   display: block;
   height: 70px;
