@@ -9,6 +9,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+/* Glyphicons import */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 
 html {
   background-color: #272727;
@@ -1280,10 +1287,11 @@ a:focus, a:hover {
 }
 
 .client-thumb img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 0 auto;
-  max-width: 115px;
+  max-width: 720px;
   width: 100%;
+  max-height: max-content;
 }
 
 .client-meta {
