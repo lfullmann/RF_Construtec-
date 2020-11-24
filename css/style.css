@@ -1128,8 +1128,8 @@ a:focus, a:hover {
 }
 
 .service-2 .service-item:hover i {
-  background: #00000;
-  color: #FFCC00;
+  background: #000000;
+  color:#FFCC00;
 }
 
 .service-2 .service-item i {
@@ -1262,6 +1262,14 @@ a:focus, a:hover {
 .member-meta span {
   font-size: 12px;
 }
+/*=================================================================
+  Carousel section
+==================================================================*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 80%;
+    margin: auto;
+  }
 
 /*=================================================================
   Testimonial section
